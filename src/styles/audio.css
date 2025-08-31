@@ -1,0 +1,17 @@
+.audio-wrapper{
+  position: sticky;   
+  top: 8px;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+}
+.audio-wrapper audio{
+  width: min(520px, 92%);
+  height: 36px;
+  border-radius: 10px;
+  background: #0b1020;
+  border: 1px solid var(--border);
+  color-scheme: dark;
+}
+.audio-wrapper audio::-webkit-media-controls-enclosure{ background:#0b1020; border-radius:10px; }
+.audio-wrapper audio::-webkit-media-controls-panel{ background:#0b1020; }
